@@ -14,7 +14,10 @@ const CustomerReviews = () => {
       </p>
       <div className="flex justify-evenly max-lg:flex-col gap-14 mt-14">
         {reviews.map((review) => (
-          <div className="flex flex-col items-center justify-center max-w-sm">
+          <div
+            key={review.customerName}
+            className="flex flex-col items-center justify-center max-w-sm"
+          >
             <div>
               <img
                 src={review.imgURL}

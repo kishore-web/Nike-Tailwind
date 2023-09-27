@@ -21,7 +21,9 @@ const Nav = () => {
             </li>
           ))}
         </ul>
-        <div className="invisible">Sign in / Explore now</div>
+        <div className="flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24">
+          Sign in / Explore now
+        </div>
         <div className="hidden max-lg:block">
           <img src={hamburger} alt="Hamburger" width={25} height={25} />
         </div>
