@@ -4,10 +4,14 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => {
   return (
     <section className="max-container text-white">
-      <div className="flex gap-20 justify-between items-star max-sm:flex-col ">
+      <div className="flex gap-20 justify-between items-start max-sm:flex-col max-lg:flex-col ">
         <div className="flex flex-col items-start gap-6">
           <div>
-            <img src="../src/assets/images/footer-logo.svg" alt="" />
+            <img
+              src="../src/assets/images/footer-logo.svg"
+              alt="footer-logo"
+              className="w-40 h-20"
+            />
           </div>
           <p className="sm:max-w-sm leading-6 font-montserrat text-white-400">
             Get shoes ready for the new term at your nearest Nike store. Find
@@ -21,7 +25,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-1 max-sm:flex-col lg:gap-10 gap-20 justify-end flex-wrap">
+        <div className="flex flex-1 justify-between max-sm:flex-col max-lg:gap-14 gap-20  flex-wrap">
           {footerLinks.map((footer) => (
             <div>
               <h3 className="text-2xl font-palanquin mb-6">{footer.title}</h3>
