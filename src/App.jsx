@@ -8,6 +8,7 @@ import {
   Hero,
 } from "./sections";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 const App = () => (
   <main className="relative">
@@ -34,7 +35,7 @@ const App = () => (
       <Subscribe />
     </section>
     <section className="bg-black padding-x padding-t pb-8">
-      {/* <Footer /> */}
+      <Footer />
     </section>
   </main>
 );
