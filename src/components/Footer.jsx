@@ -31,7 +31,7 @@ const Footer = () => {
               <h3 className="text-2xl font-palanquin mb-6">{footer.title}</h3>
               {footer.links.map((link) => (
                 <ul key={link.name}>
-                  <li className="mt-3 text-base font-montserrat cursor-pointer text-white-400">
+                  <li className="mt-3 text-base font-montserrat cursor-pointer text-white-400 hover:text-slate-gray">
                     {link.name}
                   </li>
                 </ul>

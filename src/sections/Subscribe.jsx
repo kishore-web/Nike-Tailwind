@@ -13,7 +13,7 @@ const Subscribe = () => {
       <div className="border border-slate-gray p-2 flex flex-1 justify-between items-center lg:max-w-[40%] rounded-full max-lg:w-full max-sm:flex-col max-sm:border-none gap-4 max-sm:items-stretch">
         <input
           type="text"
-          className="pl-4 input"
+          className="input"
           placeholder="kishore.559@newsletter.com"
         />
         <Button label="Sign Up" />
